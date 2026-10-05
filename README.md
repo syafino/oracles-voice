@@ -101,3 +101,7 @@ State lives in `~/.oracle/`: the mute flag, the player's process ID, and a log.
 - macOS only for now. Linux needs a different player in `speak()`.
 - The final reply is spoken after its text appears, because Claude Code only hands a reply to hooks once it is complete.
 - Audio is downloaded whole and then played, not streamed. Lines are short, so the delay is small.
+
+## License
+
+MIT
